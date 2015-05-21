@@ -63,11 +63,6 @@
                 android:summary="@string/doze_summary"
                 android:persistent="false" />
 
-        <PreferenceScreen
-                android:key="expanded_desktop"
-                android:title="@string/power_menu_expanded_desktop"
-                android:fragment="com.android.settings.applications.ExpandedDesktopPreferenceFragment" />
-
         <ListPreference
                 android:key="lcd_density"
                 android:title="@string/lcd_density"
